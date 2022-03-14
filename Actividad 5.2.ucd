@@ -43,19 +43,139 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
+16
+ptul:
+298 85
+ptdr:
+388 111
+Num.Links:
+2
+link objId:
+31
+link objId:
+36
+name:
+Padre
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+5
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+31
+Num.Pts:
+2
+183 97
+298 97
+objStartId:
+12
+objEndId:
+16
+roleAname:
+Familia
+roleBname:
+Padre
+roleAmult:
+
+roleBmult:
+
+composition:
+1
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
+12
+ptul:
+93 87
+ptdr:
+183 113
+Num.Links:
+2
+link objId:
+31
+link objId:
+32
+name:
+Familia
+Num.Attrs:
+0
+Num.Opers:
+0
+type:
+2
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+255 255 255
+fgrColor:
+0 0 0
+objId:
+32
+Num.Pts:
+2
+138 113
+138 171
+objStartId:
+12
+objEndId:
+15
+type:
+1
+stereotype:
+
+constraint:
+
+shortDescrLen:
+0
+shortDescr:
+
+bgrColor:
+128 255 128
+fgrColor:
+0 0 0
+objId:
 15
 ptul:
-85 169
+87 171
 ptdr:
-188 232
+190 234
 Num.Links:
-3
+2
 link objId:
-17
+32
 link objId:
-20
-link objId:
-27
+33
 name:
 Personas
 Num.Attrs:
@@ -119,15 +239,17 @@ fgrColor:
 objId:
 14
 ptul:
-452 148
+318 208
 ptdr:
-542 174
+408 234
 Num.Links:
-2
+3
 link objId:
-20
+33
 link objId:
-23
+36
+link objId:
+37
 name:
 Hijo
 Num.Attrs:
@@ -149,113 +271,17 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
-20
+33
 Num.Pts:
-6
-497 148
-497 129
-580 129
-580 303
-136 303
-136 232
+4
+336 234
+336 278
+153 278
+153 234
 objStartId:
 14
 objEndId:
 15
-type:
-1
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-bgrColor:
-128 255 128
-fgrColor:
-0 0 0
-objId:
-13
-ptul:
-307 203
-ptdr:
-397 229
-Num.Links:
-1
-link objId:
-25
-name:
-Madre
-Num.Attrs:
-0
-Num.Opers:
-0
-type:
-1
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-bgrColor:
-128 255 128
-fgrColor:
-0 0 0
-objId:
-12
-ptul:
-91 85
-ptdr:
-181 111
-Num.Links:
-1
-link objId:
-17
-name:
-Familia
-Num.Attrs:
-0
-Num.Opers:
-0
-type:
-1
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-bgrColor:
-128 255 128
-fgrColor:
-0 0 0
-objId:
-16
-ptul:
-298 85
-ptdr:
-388 111
-Num.Links:
-3
-link objId:
-23
-link objId:
-25
-link objId:
-27
-name:
-Padre
-Num.Attrs:
-0
-Num.Opers:
-0
 type:
 5
 stereotype:
@@ -271,20 +297,19 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
-23
+36
 Num.Pts:
-3
-347 111
-347 160
-452 160
+2
+327 111
+327 208
 objStartId:
 16
 objEndId:
 14
 roleAname:
-padre
+Padre
 roleBname:
-hijo
+Hijo
 roleAmult:
 1
 roleBmult:
@@ -306,27 +331,29 @@ bgrColor:
 fgrColor:
 0 0 0
 objId:
-25
+37
 Num.Pts:
-2
-347 203
-346 111
+4
+451 109
+451 177
+390 177
+390 208
 objStartId:
 13
 objEndId:
-16
+14
 roleAname:
-madre
+Madre
 roleBname:
-
+Hijo
 roleAmult:
 1
 roleBmult:
-
+*
 composition:
 0
 type:
-2
+1
 stereotype:
 
 constraint:
@@ -336,52 +363,22 @@ shortDescrLen:
 shortDescr:
 
 bgrColor:
-255 255 255
+128 255 128
 fgrColor:
 0 0 0
 objId:
-27
-Num.Pts:
-4
-316 111
-316 135
-117 135
-118 169
-objStartId:
-16
-objEndId:
-15
-type:
-5
-stereotype:
-
-constraint:
-
-shortDescrLen:
-0
-shortDescr:
-
-bgrColor:
-255 255 255
-fgrColor:
-0 0 0
-objId:
-17
-Num.Pts:
-2
-117 111
-117 169
-objStartId:
-12
-objEndId:
-15
-roleAname:
-Familia
-roleBname:
-    Persona
-roleAmult:
-
-roleBmult:
-1..*
-composition:
+13
+ptul:
+441 83
+ptdr:
+531 109
+Num.Links:
 1
+link objId:
+37
+name:
+Madre
+Num.Attrs:
+0
+Num.Opers:
+0
